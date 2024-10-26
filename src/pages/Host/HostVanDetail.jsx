@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { getVan } from "../../api";
 import { Link, NavLink, Outlet, useParams } from "react-router-dom";
 import { BsArrowLeft } from "react-icons/bs";
-import styles from "../../styles/Host/HostvanDetail.module.css";
+import styles from "../../styles/Host/HostVanDetail.module.css";
 
 export default function HostVanDetail() {
   const [currentVan, setCurrentVan] = useState(null);
