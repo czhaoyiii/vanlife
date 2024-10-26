@@ -1,0 +1,32 @@
+.vanDetailPage {
+  padding: 4rem 7rem;
+  margin: auto;
+}
+
+.backBtn {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: underline;
+  font-size: 1rem;
+  width: fit-content;
+}
+
+@media screen and (max-width: 1024px) {
+  .vanDetailPage {
+    padding: 4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .vanDetailPage {
+    padding: 2rem 4rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .vanDetailPage {
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,50 @@
+.vansFilter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 2rem 0 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #d1d5db;
+}
+
+.vanTypeButton {
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  color: #161616;
+  font-weight: 700;
+  text-transform: capitalize;
+  background-color: #ffead0;
+  border: none;
+  font-family: "Jost", sans-serif;
+  cursor: pointer;
+}
+
+.simple {
+  background-color: #e17654;
+  color: #ffead0;
+}
+
+.rugged {
+  background-color: #115e59;
+  color: #ffead0;
+}
+
+.luxury {
+  background-color: #161616;
+  color: #ffead0;
+}
+
+.clearBtn {
+  text-decoration: underline;
+  font-size: 1rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .vansFilter {
+    justify-content: center;
+  }
+}

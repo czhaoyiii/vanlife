@@ -1,0 +1,56 @@
+.catalog {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  gap: 4rem;
+  justify-content: center;
+}
+
+.vanCard {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background-color: #ffffff;
+  border: 1px solid #e7e5e4;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.453);
+}
+
+.vanCardImage {
+  width: 100%;
+}
+
+.vanCardInfo {
+  padding: 0.5rem 1rem 1rem;
+}
+
+.vanCardKeyInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vanCardTypePlacement {
+  display: flex;
+  justify-content: end;
+  padding-top: 0.5rem;
+}
+
+.vanCardType {
+  font-weight: 500;
+  border-radius: 0.3125rem;
+  text-transform: capitalize;
+  padding: 6px 1rem;
+}
+
+.simple {
+  background-color: #e17654;
+  color: #ffead0;
+}
+
+.rugged {
+  background-color: #115e59;
+  color: #ffead0;
+}
+
+.luxury {
+  background-color: #161616;
+  color: #ffead0;
+}

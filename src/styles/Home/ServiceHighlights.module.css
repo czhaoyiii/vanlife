@@ -1,0 +1,63 @@
+.serviceHighlights {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem 2rem;
+}
+
+.servicesTitle {
+  font-size: 1.875rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
+.services {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.service {
+  max-width: 15.625rem;
+}
+
+.serviceIcon {
+  font-size: 2.5rem;
+  color: #9233ea;
+  margin-bottom: -1rem;
+}
+
+.serviceTitle {
+  font-size: 1.125rem;
+  padding: 0.5rem 0;
+}
+
+@media screen and (max-width: 768px) {
+  .servicesTitle {
+    font-size: 1.5rem;
+  }
+
+  .services {
+    flex-direction: column;
+  }
+
+  .service {
+    max-width: 100%;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  .serviceTitle {
+    font-size: 1rem;
+  }
+
+  .serviceDescription {
+    font-size: 0.875rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .servicesTitle {
+    font-size: 1.25rem;
+  }
+}

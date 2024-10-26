@@ -1,0 +1,56 @@
+.incomePage {
+  padding: 0 5rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.amount {
+  font-size: 38px;
+  color: #161616;
+  font-weight: 900;
+}
+
+.incomeGraph {
+  width: 100%;
+  max-width: 500px;
+}
+
+.transactionSection {
+  width: 50vw;
+}
+
+.transactions {
+  margin-top: 2rem;
+}
+
+.transaction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  margin-bottom: 31px;
+  padding: 35px 29px;
+  border-radius: 6px;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .incomePage {
+    flex-direction: column;
+  }
+
+  .transactionSection {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .incomePage {
+    padding: 0 1rem;
+  }
+
+  .transactionSection {
+    width: 100%;
+  }
+}

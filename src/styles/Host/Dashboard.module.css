@@ -1,0 +1,104 @@
+.earnings {
+  background-color: #ffead0;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info h1 {
+  font-size: 2.5rem;
+}
+
+.info p {
+  font-size: 1rem;
+}
+
+.info h2 {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.reviews {
+  background-color: #ffddb2;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reviewScore {
+  display: flex;
+  align-items: center;
+}
+
+.score {
+  display: flex;
+}
+
+.stars {
+  color: #ff8c38;
+  margin-left: 15px;
+  font-size: 25px;
+}
+
+.reviews p {
+  margin-left: 5px;
+  font-size: 20px;
+  color: #4d4d4d;
+}
+
+.reviews span {
+  font-weight: bold;
+  color: #161616;
+}
+
+.vans {
+  padding: 38px 26px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.hostVan {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin-bottom: 15px;
+  padding: 18px 24px;
+}
+
+.hostVanImage {
+  height: 70px;
+  border-radius: 5px;
+  margin-right: 17px;
+}
+
+.hostVanInfo {
+  margin-right: auto;
+}
+
+.hostVanInfo h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-block: 10px;
+}
+
+.hostVanInfo p {
+  margin-block: 10px;
+}
+
+@media screen and (max-width: 640px) {
+  .reviewScore {
+    flex-direction: column;
+    align-items: baseline;
+  }
+
+  .stars {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,24 @@
+/* Vans Page */
+.vans {
+  max-width: 68.25rem;
+  width: 100%;
+  margin: auto;
+  padding: 5rem 2rem;
+}
+
+.vansTitle {
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .vansTitle {
+    font-size: 2.25rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .vansTitle {
+    font-size: 1.875rem;
+  }
+}
